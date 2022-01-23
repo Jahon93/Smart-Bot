@@ -1,0 +1,58 @@
+.main {
+    background: #d53369;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #cbad6d, #d53369);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #cbad6d, #d53369); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Oxygen, sans-serif;
+    background-repeat: no-repeat;
+    box-sizing:border-box;
+}
+#title {
+    letter-spacing: 1px;
+}
+button {
+    height: 50px;
+    width: 150px;
+    border: 1px solid darkred;
+    cursor: pointer;
+    background: #EF3B36;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #EF3B36);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #EF3B36); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+#activity{
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    border-color: #d53369;
+    font-size: 1.2rem;
+    margin-top: 0;
+    letter-spacing: 1px;
+;
+    
+}
+#bot {
+    font-size: 50px;
+}
+.fun {
+    background: #C6FFDD;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+footer {
+    margin-top: -70px;
+}
+.footer-text {
+    text-align: center;
+    color: #4b4e4c;
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: 3px;
+
+}
